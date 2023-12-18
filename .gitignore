@@ -2,4 +2,3 @@ __pycache__/
 tutorial-env/
 .vscode/ 
 .flaskenv
-main.py

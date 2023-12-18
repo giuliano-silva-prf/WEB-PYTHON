@@ -1,0 +1,15 @@
+PASSOS PARA ATUALIZAÇÃO DO PROJETO NO PYTHONANYWHERE
+
+Após alteraçãoes realizadas no código:(dentro do terminal do vs code)
+1. Adicionar as alterações no stage            -> git add .
+2. Realizar o commit                           -> git commit -m "Comentário aqui"
+3. Executar um push                            -> git push
+3,5. gerar os links github que serão clonados  -> git remote -v
+4. Acessar a plataforma pythonanywhere.com
+5. Abrir o terminais bash da conta pythonanywhere
+5,5. Clonar os arquivos do github              -> git clone (colar o link copiado no passo 3,5)
+6. Acessar o diretório do projeto (no meu caso: python_web)
+7. Executar um pull                            -> git pull
+8. Ativar o ambiente virtual                   -> pythonanywhere-env (digitar nome do ambiente virtual)
+9. Instalar módulos do requirements.txt        -> pip install -r requirements.txt
+10. Efetuar um refresh na aplicação            -> aba web na plataforma pythonanywhere
